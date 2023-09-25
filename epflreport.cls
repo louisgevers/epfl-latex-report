@@ -38,6 +38,11 @@
 
 % Lorem ipsums
 \RequirePackage{lipsum}
+% Make lipsums gray
+\setlipsum{%
+    par-before = \begingroup\color{gray},
+    par-after = \endgroup
+}
 
 % Bibliography
 \RequirePackage[
@@ -64,6 +69,15 @@
 
 % Custom bullets
 \RequirePackage{pifont}
+
+% Align equations
+\RequirePackage{amsmath}
+
+% Math symbols
+\RequirePackage{amsfonts}
+
+% Customize lists
+\RequirePackage{enumitem}
 
 %%%%%%%%%%%%%%%%%%%%
 %%% Environments %%%

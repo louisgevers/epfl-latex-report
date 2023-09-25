@@ -300,3 +300,6 @@ TSWLatexianTemp*
 #*Notes.bib
 
 .vscode
+
+# MacOS
+ .DS_Store
